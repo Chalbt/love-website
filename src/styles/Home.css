@@ -15,36 +15,36 @@
 }
 
 .big-text-high {
-position: absolute;
-top: -25px; 
-left: 0;
-font-size: 90px;
-font-weight: bold;
-color: #c45c50;
-font-family: 'Forum', cursive;
-font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: -25px; 
+    left: 0;
+    font-size: 90px;
+    font-weight: bold;
+    color: #c45c50;
+    font-family: 'Forum', cursive;
+    font-family: 'Playfair Display', serif;
 }
   
 .big-text-middle {
-position: absolute;
-top: 50%; 
-right: 0; 
-transform: translateY(-50%);
-font-size: 50px; 
-font-weight: bold;
-color: #c45c50; 
-font-family: 'Forum', cursive;
-font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
+    font-size: 50px; 
+    font-weight: bold;
+    color: #c45c50; 
+    font-family: 'Forum', cursive;
+    font-family: 'Playfair Display', serif;
 }
   
 .big-text-down {
-position: absolute;
-bottom: -25px; 
-left: 0;
-font-size: 90px; 
-font-weight: bold;
-color: #c45c50;
-font-family: 'Playfair Display', serif;
+    position: absolute;
+    bottom: -25px; 
+    left: 0;
+    font-size: 90px; 
+    font-weight: bold;
+    color: #c45c50;
+    font-family: 'Playfair Display', serif;
 }
 
 .introduction-text {

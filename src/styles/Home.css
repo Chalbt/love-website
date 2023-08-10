@@ -1,76 +1,9 @@
-.home {
-    padding: 50px 0 50px 0;
-    background-color: #222222;
+.brand-name {
     display: flex;
-    justify-content: center;
-}
-
-.home-container {
-    padding: 45px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-.big-text-high {
-    position: absolute;
-    top: -25px; 
-    left: 0;
-    font-size: 90px;
-    font-weight: bold;
-    color: #c45c50;
-    font-family: 'Forum', cursive;
-    font-family: 'Playfair Display', serif;
-}
-  
-.big-text-middle {
-    position: absolute;
-    top: 50%; 
-    right: 0; 
-    transform: translateY(-50%);
-    font-size: 50px; 
-    font-weight: bold;
-    color: #c45c50; 
-    font-family: 'Forum', cursive;
-    font-family: 'Playfair Display', serif;
-}
-  
-.big-text-down {
-    position: absolute;
-    bottom: -25px; 
-    left: 0;
-    font-size: 90px; 
-    font-weight: bold;
-    color: #c45c50;
-    font-family: 'Playfair Display', serif;
-}
-
-.introduction-text {
-    position: absolute;
-    color: #ebe0d3;
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    top: 20%;
-    left: 20%;
-}
-
-.sub-intro {
-    display: flex;
-    margin: 20px 0 0 60px;
-}
-
-.intro-1 {
-    font-weight: bold;
-}
-
-.intro-2, .intro-3 {
-    width: 200px;
-    margin-right: 20px;
-}
-
-.background-image-home-small img {
-    width: 100%
+    height: 100vh;
+    font-family: 'BlackGold';
+    font-size: 50px;
+    color: #bf1628;
 }

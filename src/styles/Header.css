@@ -1,0 +1,18 @@
+.header {
+    font-family: 'BlackGold';
+}
+
+.menu-header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu-header li {
+    font-size: 20px;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: #222222;
+}

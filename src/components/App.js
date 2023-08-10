@@ -2,6 +2,8 @@ import '../styles/App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
+import Article from './Article';
+import Gallery from './Gallery';
 import Footer from './Footer';
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path="/article" exact element={<Article />} />
+          <Route path="/gallery" exact element={<Gallery />} />
         </Routes>
         <Footer />
       </Router>

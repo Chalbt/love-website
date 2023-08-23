@@ -1,14 +1,16 @@
+import { useRef } from 'react';
 import '../styles/Gallery.css';
 import Nene from '../assets/videos/Nene-Proposal.mp4'
+import NeneMiniature from "../assets/nene-miniature.png"
 
 function Gallery() {
 
-    const url = 'assets/videos/Nene-Proposal.mp4'
+    const videoRef = useRef(null);
 
     return (
         <div className='gallery'>
-          <h2>Nenê - Spectacular proposal in NY</h2>
-          <video controls width="640" height="360">
+          <h2>Proposal in NY</h2>
+          <video ref={videoRef} controls width="1000" height="562" poster={NeneMiniature}>
               <source src={Nene} type="video/mp4" />
               Votre navigateur ne prend pas en charge la lecture de vidéos.
           </video>

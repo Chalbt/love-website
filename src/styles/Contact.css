@@ -1,0 +1,40 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    margin : 100px 0 50px 0;
+}
+
+.form {
+    width: 700px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label input, .label textarea {
+    background-color: #ebe0d3;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name label {
+    width: 48%;
+}
+
+.submit {
+    border: none;
+    background-color: black;
+    color: #ebe0d3;
+    padding: 10px 20px;
+}

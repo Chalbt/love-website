@@ -4,6 +4,7 @@ import Header from './Header';
 import Home from './Home';
 import Article from './Article';
 import Gallery from './Gallery';
+import Contact from './Contact';
 import Footer from './Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path="/article" exact element={<Article />} />
           <Route path="/gallery" exact element={<Gallery />} />
+          <Route path="/contact" exact element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

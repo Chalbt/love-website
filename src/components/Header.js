@@ -7,10 +7,8 @@ function Header() {
         <div className="header">
             <div className="menu-header">
                 <ul>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="/home">ABOUT</Link></li>
-                    <li><Link to="/gallery">GALLERY</Link></li>
-                    <li><Link to="/article">ARTICLE</Link></li>
+                    <li><Link to="/">PHILOSOPHY</Link></li>
+                    <li><Link to="/press">PRESS</Link></li>
                     <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
             </div>

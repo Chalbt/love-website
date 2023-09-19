@@ -1,13 +1,29 @@
+.contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Raleway';
-    margin : 100px 0 50px 0;
+    margin : 80px 0 50px 0;
+}
+
+.contact-partie-2 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
 }
 
 .form {
-    width: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .label {
@@ -16,20 +32,15 @@
     margin-bottom: 20px;
 }
 
-.label input, .label textarea {
+.label input, .label textarea, select {
     background-color: #ebe0d3;
     height: 30px;
-    border: 1px solid black;
-    margin-top: 10px;
+    border: 0.5px solid black;
+    margin-top: 5px;
 }
 
-.name {
-    display: flex;
-    justify-content: space-between;
-}
-
-.name label {
-    width: 48%;
+.label textarea {
+    height: 70px;
 }
 
 .submit {
@@ -37,4 +48,19 @@
     background-color: black;
     color: #ebe0d3;
     padding: 10px 20px;
+    width: 100px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
 }

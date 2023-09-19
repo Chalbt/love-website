@@ -1,11 +1,14 @@
 .header {
     font-family: 'BlackGold';
+    background-color: transparent;
+    padding-top: 10px;
 }
 
 .menu-header ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .menu-header li {

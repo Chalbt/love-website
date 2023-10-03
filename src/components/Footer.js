@@ -6,8 +6,8 @@ function Footer() {
 
     return (
         <div className="footer">
-            <img src={Instagram} alt="Logo instagram"/>
-            <img src={Mail} alt="Logo mail"/>
+            <a href="https://www.instagram.com/heloiseetabelard_/" aria-label="Suivez-nous sur Instagram" target="_blank"><img src={Instagram} alt="Logo instagram"/></a>
+            <a href="mailto:contact@heloiseetabelard.com" aria-label="Contactez-nous pour toute demande d'informations"><img src={Mail} alt="Logo mail"/></a>
         </div>
     )
 

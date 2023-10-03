@@ -10,10 +10,10 @@ function Contact() {
             <div className="contact">
                 <h2>We are commited to call you back, at the time of your convenience, within the same day.<br/>
                 You can reach us via the form or directly on Whatsapp
-                <Link to="https://wa.me/33688255149"> +33 688 255 149</Link> or by email <a href="mailto:contact@heloiseabelard.com">contact@heloiseabelard.com</a></h2>
+                <Link to="https://wa.me/33688255149"> +33 688 255 149</Link> or by email <a href="mailto:contact@heloiseetabelard.com">contact@heloiseetabelard.com</a></h2>
                 <div className="contact-partie-2">
                     <div className="form">
-                        <form className="form" action="https://formsubmit.co/33568a4a4b195b9239793908ed96bf5e" method="POST">
+                        <form className="form" action="https://formsubmit.co/contact@heloiseetabelard.com" method="POST">
                             <label className="label">
                                 Name :
                                 <input required type="text" name="firstName" />

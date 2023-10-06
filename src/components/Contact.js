@@ -37,7 +37,7 @@ function Contact() {
                         </form>
                     </div>
                     <div className="map">
-                        <iframe className="map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.098038039534!2d2.3283239!3d48.86680955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3201ad2c71%3A0xa3687f4e82da3ea4!2sPlace%20Vend%C3%B4me%2C%20Paris%2C%20France!5e0!3m2!1sfr!2sma!4v1694098541077!5m2!1sfr!2sma"
+                        <iframe className="map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5906720248076!2d2.3268378120835!3d48.86601537121352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2e1a161985%3A0x262161d5a23b4d6c!2s229%20Rue%20Saint-Honor%C3%A9%2C%2075001%20Paris%2C%20France!5e0!3m2!1sfr!2sad!4v1696604412977!5m2!1sfr!2sad"
                         width="400"
                         height="300"
                         allowfullscreen=""

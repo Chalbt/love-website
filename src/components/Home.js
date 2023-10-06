@@ -26,7 +26,7 @@ function Home() {
         <div className='home'>
             <Header />
             <div className='about'>
-                <h1 className="brand-name">HELOISE & ABELARD</h1>
+                <h1 className="brand-name">Heloise & Abelard</h1>
                 <p className='introduction'>Heloise et Abelard is the pionner marriage proposal and wedding planning agency, built around experts in scenography, cinema-graded decorators and passionates groups of creatives.</p>
                 <p className='introduction'>Trusted for its confidentiality and its exclusive savoir-faire, Heloise et Abelard is renowned as the go to agency for leaders, <span onMouseEnter={openModal} className='celebrities-link'>celebrities</span> and anyone seeking to create everlasting moments, in the name of love.</p>
                 <p className='introduction'>Paris based, the agency is delighted to welcome you in <Link to ="/Contact">its office</Link> or to have an <Link to ="/Contact">expert reaching you</Link>.</p>

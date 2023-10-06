@@ -23,7 +23,7 @@ function Contact() {
                                 <input type="text" name="subject" required />
                             </label>
                             <label className="label" id="callback-time" for="callbackTime">Callback time :</label>
-                                <select id="callbackTime" name="callbackTime">
+                                <select className="label-callback" id="callbackTime" name="callbackTime">
                                 <option value="08:00 AM - 10:00 AM">8:00am - 10:00am</option>
                                 <option value="10:00 AM - 12:00 PM">10:00am - 12:00pm</option>
                                 <option value="12:00 PM - 02:00 PM">12:00pm - 2:00pm</option>

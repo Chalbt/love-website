@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'BlackGold';
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
     font-size: 50px;
     color: #bf1628;
 }
@@ -20,6 +21,7 @@ h1 {
 
 .introduction {
     width: 30%;
+    font-family: 'Playfair Display', serif;
 }
 
 .introduction a {

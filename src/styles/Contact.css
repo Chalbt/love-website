@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Raleway';
+    font-family: 'Playfair Display', serif;
     margin : 80px 0 50px 0;
 }
 
@@ -39,6 +39,10 @@
     margin-top: 5px;
 }
 
+.label-callback {
+    margin-top: -15px;
+}
+
 .label textarea {
     height: 70px;
 }
@@ -53,7 +57,7 @@
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 50px;
@@ -107,10 +111,6 @@ h2 {
 
     .label, select {
         width: 80%;
-    }
-
-    #callback-time {
-        margin-bottom: 0;
     }
 
     .map-google {

@@ -19,3 +19,11 @@
     text-decoration: none;
     color: #222222;
 }
+
+@media screen and (max-width: 767px) {
+
+    .menu-header li {
+        font-size: 15px;
+    }
+
+}

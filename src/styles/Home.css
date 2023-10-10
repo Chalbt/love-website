@@ -6,6 +6,7 @@
     font-style: italic;
     font-size: 50px;
     color: #bf1628;
+    margin-bottom: 70px;
 }
 
 h1 {
@@ -27,6 +28,10 @@ h1 {
 .introduction a {
     color: black;
     white-space: nowrap;
+}
+
+#intro-1 {
+    margin-top: -20px;
 }
 
 .celebrities-link {
@@ -83,10 +88,22 @@ h1 {
         width: 80%;
     }
 
+    #intro-1 {
+        margin-top: 60px;
+    }
+
   }
 
 
   @media screen and (max-width: 767px) {
+
+    .home {
+        height: calc(100vh - 80px);
+    }
+
+    .about h1 {
+        margin-bottom: 80px;
+    }
 
     .brand-name {
         font-size: 30px;

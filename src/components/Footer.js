@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div className="footer">
             <a href="https://www.instagram.com/heloiseetabelard_/" aria-label="Suivez-nous sur Instagram" target="_blank"><img src={Instagram} alt="Logo instagram"/></a>
-            <Link to ="/Contact" aria-label="Contactez-nous pour toute demande d'informations"><img src={Mail} alt="Logo mail"/></Link>
+            <Link to ="/contact" aria-label="Contactez-nous pour toute demande d'informations"><img src={Mail} alt="Logo mail"/></Link>
         </div>
     )
 

@@ -1,4 +1,8 @@
 .header {
+    display: none;
+}
+
+.header {
     font-family: 'Playfair Display', serif;
     background-color: transparent;
     padding-top: 10px;
@@ -24,6 +28,10 @@
 
     .menu-header li {
         font-size: 15px;
+    }
+
+    .header {
+        display: none;
     }
 
 }

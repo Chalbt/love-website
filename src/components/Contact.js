@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 
 function Contact() {
     return (
-        <div className="contact-page">
+        <div className="contact-page" id="top-of-contact-page">
             <Header />
             <div className="contact">
+                <Link to="/"><h1 className="brand-name">Heloise & Abelard</h1></Link>
                 <h2>We are commited to call you back, at the time of your convenience, within the same day.<br/>
                 You can reach us via the form or directly on Whatsapp
                 <Link to="https://wa.me/33688255149"> +33 688 255 149</Link></h2>

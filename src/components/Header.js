@@ -9,6 +9,7 @@ function Header() {
                 <ul>
                     <li><Link to="/">PHILOSOPHY</Link></li>
                     <li><Link to="/contact">CONTACT</Link></li>
+                    <li className="escapades-menu"><Link to="/escapades">Les escapades</Link></li>  
                 </ul>
             </div>
         </div>

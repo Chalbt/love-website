@@ -6,12 +6,10 @@ import { Link } from "react-router-dom";
 function Contact() {
     return (
         <div className="contact-page" id="top-of-contact-page">
-            <Header />
             <div className="contact">
-                <Link to="/"><h1 className="brand-name">Heloise & Abelard</h1></Link>
                 <h2>We are commited to call you back, at the time of your convenience, within the same day.<br/>
                 You can reach us via the form or directly on Whatsapp
-                <Link to="https://wa.me/33688255149"> +33 688 255 149</Link></h2>
+                <Link to="https://wa.me/33688255149"> + 33 688 255 149</Link></h2>
                 <div className="contact-partie-2">
                     <div className="form">
                         <form className="form" action="https://formsubmit.co/4af0df5e0814d335146d5bc1aba025c0" method="POST">
@@ -47,7 +45,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

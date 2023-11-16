@@ -1,32 +1,14 @@
 .contact-page {
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bodoni Moda', serif;
     margin : 0 0 50px 0;
-}
-
-.contact h1 {
-    display: block;
-}
-
-.brand-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 40px;
-    color: #bf1628;
-    margin-top: 80px;
-    margin-bottom: 70px;
 }
 
 .contact-partie-2 {
@@ -77,7 +59,6 @@ h2 {
     font-weight: 400;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: -20px;
     width: 70%;
 }
 
@@ -110,32 +91,10 @@ h2 {
 
 @media screen and (max-width: 767px) {
 
-    .header {
-        display: none;
-    }
-
-    .contact {
-        margin-top: 0;
-    }
-
-    .contact h1 {
-        display: block;
-    }
-
-    .brand-name {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-        font-size: 40px;
-        color: #bf1628;
-        margin-top: 50px;
-    }
-
     .contact h2 {
         width: 90%;
         font-size: 15px;
+        margin-top: 30px;
     }
 
     .contact-partie-2 {

@@ -1,0 +1,15 @@
+.escapades {
+    margin: 0 100px;
+    font-family: 'Bodoni Moda', serif;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .escapades {
+        margin: 50px 30px;
+        font-family: 'Bodoni Moda', serif;
+    }
+
+}

@@ -4,8 +4,9 @@
     align-items: center;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 50px;
+    font-size: 80px;
     color: #bf1628;
+    margin-top: -40px;
     margin-bottom: 70px;
 }
 
@@ -14,7 +15,6 @@ h1 {
 }
 
 .home {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,12 +22,13 @@ h1 {
 
 .introduction {
     width: 30%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .introduction a {
     color: black;
     white-space: nowrap;
+    font-style: italic;
 }
 
 #intro-1 {
@@ -37,6 +38,7 @@ h1 {
 .celebrities-link {
     text-decoration: underline;
     cursor: pointer;
+    font-style: italic;
 }
 
 .about {
@@ -97,16 +99,9 @@ h1 {
 
   @media screen and (max-width: 767px) {
 
-    .home {
-        height: calc(100vh - 80px);
-    }
-
-    .about h1 {
-        margin-bottom: 80px;
-    }
-
     .brand-name {
         font-size: 30px;
+        margin-top: -40px;
     }
 
     .introduction {

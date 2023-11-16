@@ -1,11 +1,13 @@
 .header {
-    display: none;
-}
-
-.header {
     font-family: 'Playfair Display', serif;
     background-color: transparent;
     padding-top: 10px;
+}
+
+.escapades-menu a {
+    font-size: 30px !important;
+    font-family: 'Great Vibes', cursive;
+    color: #c45c50 !important;
 }
 
 .menu-header ul {
@@ -27,11 +29,11 @@
 @media screen and (max-width: 767px) {
 
     .menu-header li {
-        font-size: 15px;
+        font-size: 13px;
     }
 
-    .header {
-        display: none;
+    .escapades-menu a {
+        font-size: 18px !important;
     }
 
 }

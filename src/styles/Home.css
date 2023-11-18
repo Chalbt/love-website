@@ -1,3 +1,27 @@
+.HetA {
+    width: 100%;
+}
+
+.accueil {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.photo-accueil {
+    position: relative;
+}
+
+.image-description {
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+    left: 250px;
+    bottom: 40%;
+    text-shadow: black 1px 0 10px;
+}
+
 .brand-name {
     display: flex;
     justify-content: center;
@@ -47,7 +71,7 @@ h1 {
     align-items: center;
 }
 
-.about p {
+.introduction {
     text-align: justify;
 }
 

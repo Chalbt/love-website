@@ -4,6 +4,8 @@ import { useRef } from 'react'
 import Nene from '../assets/videos/Nene-Proposal.mp4'
 import NeneMiniature from "../assets/nene-miniature.png"
 import { Link } from 'react-router-dom'
+import HeloiseEtAbelard from "../assets/croquis.jpg"
+import LesEscapades from "../assets/escapades.jpg"
 
 
 function Home() {
@@ -23,6 +25,16 @@ function Home() {
     return (
         <div className='home'>
             <div className='about'>
+                <div className='accueil'>
+                    <div className='photo-accueil'>
+                        <img className="HetA" src={HeloiseEtAbelard} alt="photo des planches de croquis"/>
+                        <p className='image-description'>HELOISE & ABELARD</p>
+                    </div>
+                    <div className='photo-accueil'>
+                        <img className="HetA" src={LesEscapades} alt="photo d'un lieu privé"/>
+                        <p className='image-description'>LES ESCAPADES</p>
+                    </div>
+                </div>
                 <h1 className="brand-name">Heloise & Abelard</h1>
                 <p className='introduction' id='intro-1'>Heloise et Abelard is the leading marriage proposal agency, built around experts in scenography, cinema-graded decorators and passionates groups of creatives.</p>
                 <p className='introduction'>Trusted for its confidentiality and its exclusive savoir-faire, Heloise et Abelard is renowned as the go to agency for leaders, <span onMouseEnter={openModal} className='celebrities-link'>celebrities</span> and anyone seeking to create everlasting moments, in the name of love.</p>

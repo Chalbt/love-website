@@ -1,10 +1,11 @@
 import '../styles/App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Home';
+import HA from './HA';
 import Header from './Header';
 import Contact from './Contact';
 import Footer from './Footer';
 import Escapades from './Escapades';
+import Home from './Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' exact element={<Home />} />
+          <Route path='/ha' exact element={<HA />} />
           <Route path="/contact" exact element={<Contact />} />
           <Route path="/escapades" exact element={<Escapades />} />
         </Routes>

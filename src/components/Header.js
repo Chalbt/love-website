@@ -6,12 +6,8 @@ function Header() {
 
     return (
         <div className="header">
-            <div className="menu-header">
-                <ul>
-                    <li><Link to="/">HELOISE ET ABELARD</Link></li>
-                    <li><Link to="/contact">CONTACT</Link></li>
-                    <li className="escapades-menu"><Link to="/escapades">Les escapades</Link></li>  
-                </ul>
+            <div>
+                <Link to="/"><h1 className="brand-name">Heloise & Abelard</h1></Link>
             </div>
         </div>
     );

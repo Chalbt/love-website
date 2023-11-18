@@ -4,7 +4,7 @@ import { useRef } from 'react'
 import Nene from '../assets/videos/Nene-Proposal.mp4'
 import NeneMiniature from "../assets/nene-miniature.png"
 import { Link } from 'react-router-dom'
-import HeloiseEtAbelard from "../assets/croquis.jpg"
+import SavoirFaire from "../assets/croquis.jpg"
 import LesEscapades from "../assets/escapades.jpg"
 
 
@@ -24,21 +24,24 @@ function Home() {
 
     return (
         <div className='home'>
-            <div className='about'>
-                <div className='accueil'>
-                    <div className='photo-accueil'>
-                        <img className="HetA" src={HeloiseEtAbelard} alt="photo des planches de croquis"/>
-                        <p className='image-description'>HELOISE & ABELARD</p>
-                    </div>
-                    <div className='photo-accueil'>
-                        <img className="HetA" src={LesEscapades} alt="photo d'un lieu privé"/>
-                        <p className='image-description'>LES ESCAPADES</p>
-                    </div>
+
+            <div className='menu-photo'>
+                <div className='savoir-faire'>
+                    <p className='image-description'>Savoir Faire</p>
+                    <Link to="/ha"><img className="img-savoir-faire" src={SavoirFaire} alt="photo des planches de croquis"/></Link> 
                 </div>
-                <h1 className="brand-name">Heloise & Abelard</h1>
-                <p className='introduction' id='intro-1'>Heloise et Abelard is the leading marriage proposal agency, built around experts in scenography, cinema-graded decorators and passionates groups of creatives.</p>
-                <p className='introduction'>Trusted for its confidentiality and its exclusive savoir-faire, Heloise et Abelard is renowned as the go to agency for leaders, <span onMouseEnter={openModal} className='celebrities-link'>celebrities</span> and anyone seeking to create everlasting moments, in the name of love.</p>
-                <p className='introduction'>Paris based, the agency is delighted to welcome you in its office or to have an <Link to ="/Contact">expert reaching you</Link>.</p>
+                <div className='h-et-a'>
+                    <p className='image-description'>Marriage proposal ?</p>
+                    <img className="img-savoir-faire" src={SavoirFaire} alt="photo des planches de croquis"/>
+                </div>
+                <div className='les-escapades'>
+                    <p className='image-description'>Les Escapades</p>
+                    <Link to="/escapades"><img className="img-les-escapades" src={LesEscapades} alt="photo d'un lieu privé'"/></Link>
+                </div>
+            </div>
+
+            <div className='contacts'>
+                <p className='lien-contacts'><Link to="/contact">CONTACTS</Link></p>
             </div>
 
             {isModalOpen && (

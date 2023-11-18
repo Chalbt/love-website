@@ -4,21 +4,24 @@
     padding-top: 10px;
 }
 
+.brand-name {
+    display: flex;
+    justify-content: left;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 55px;
+    color: #bf1628;
+    margin: 0 0 0 20px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
 .escapades-menu a {
     font-size: 30px !important;
     font-family: 'Great Vibes', cursive;
     color: #c45c50 !important;
-}
-
-.menu-header ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.menu-header li {
-    font-size: 20px;
 }
 
 .menu-header a {

@@ -1,61 +1,99 @@
-/*.HetA {
-    width: 100%;
-}
 
-.accueil {
-    display: flex;
-    margin-bottom: 100px;
+.home {
+    margin: 0 70px 0 70px;
 }
-
-.photo-accueil {
-    position: relative;
-}
-
-.image-description {
-    position: absolute;
-    color: white;
-    font-weight: 800;
-    font-size: 20px;
-    font-family: 'Young Serif', serif;
-    left: 250px;
-    bottom: 40%;
-    text-shadow: black 1px 0 10px;
-}*/
 
 .menu-photo {
     display: flex;
-    margin-left: 30%;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.savoir-faire, .h-et-a, .les-escapades {
+    width: 30%;
+}
+
+.image-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #bf1628;
+    font-size: 15px;
+    letter-spacing: 5px;
 }
 
 .menu-photo img {
-    width: 80%;
+    width: 100%;
 }
 
-.contacts {
-    margin-left: 20px;
-    margin-bottom: -200px;
-    margin-top: 100px;
+.img-savoir-faire, .img-les-escapades {
+    border-radius: 5px;
+    filter: saturate(100%);
 }
 
-.lien-contacts a {
-    text-decoration: none;
-    color: #222222;
+.savoir-faire img:hover, .h-et-a img:hover, .les-escapades img:hover {
+    filter: saturate(10%);
+}
+
+.img-les-escapades :hover {
+    filter: saturate(10%);
 }
 
 h1 {
     font-weight: 400;
 }
 
+.read-more {
+    font-style: italic;
+    font-size: 10px;
+    text-align: right;
+}
+
+.read-more a {
+    color: black;
+}
+
 
   @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .introduction {
-        width: 80%;
+    .home {
+        margin: 0 50px 30px 50px;
     }
 
-    #intro-1 {
-        margin-top: 60px;
+    .brand-name {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .savoir-faire, .h-et-a, .les-escapades {
+        width: 100%;
+    }
+
+    .menu-photo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menu-photo img {
+        width: 100%;
+    }
+
+    .image-description {
+        font-size: 25px;
+    } 
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .read-more {
+        padding-right: 0;
+        font-size: 20px;
     }
 
   }
@@ -63,13 +101,36 @@ h1 {
 
   @media screen and (max-width: 767px) {
 
-    .brand-name {
-        font-size: 30px;
-        margin-top: -40px;
+    .home {
+        margin: 0 30px 30px 30px;
     }
 
-    .introduction {
-        width: 75%;
+    .brand-name {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .savoir-faire, .h-et-a, .les-escapades {
+        width: 100%;
+    }
+
+    .menu-photo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menu-photo img {
+        width: 100%;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .read-more {
+        padding-right: 0;
     }
 
     .modal {

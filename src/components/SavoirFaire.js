@@ -1,4 +1,4 @@
-import "../styles/HA.css"
+import "../styles/SavoirFaire.css"
 import { useState } from 'react'
 import { useRef } from 'react'
 import Nene from '../assets/videos/Nene-Proposal.mp4'
@@ -22,9 +22,13 @@ function HA() {
     return (
         <div>
             <div className="HA">
-                    <p className='introduction' id='intro-1'>Heloise et Abelard is the leading marriage proposal agency, built around experts in scenography, cinema-graded decorators and passionates groups of creatives.</p>
-                    <p className='introduction'>Trusted for its confidentiality and its exclusive savoir-faire, Heloise et Abelard is renowned as the go to agency for leaders, <span onMouseEnter={openModal} className='celebrities-link'>celebrities</span> and anyone seeking to create everlasting moments, in the name of love.</p>
-                    <p className='introduction'>Paris based, the agency is delighted to welcome you in its office or to have an <Link to ="/Contact" className="celebrities-link">expert reaching you</Link>.</p>
+                <p className='introduction' id='intro-1'>Heloise et Abelard is the french leading marriage proposal agency.</p>
+
+                <p className='introduction'>Trusted since 2011 for its confidentiality and its exclusive savoir-faire, the agency became the open secret of leaders, <span onMouseEnter={openModal} className='celebrities-link'>athletes</span> and anyone seeking to create everlasting moments in the name of love.</p>
+
+                <p className='introduction'>Built around experts in scenography, cinema-graded decorators, designers and a passionate groups of creatives, the agency dominates a large range of productions techniques to empower the most delicate and the most spectacular requests.</p>
+
+                <p className='introduction'>In 2023, Heloise et Abelard created Les Escapades. The latest signature of the agency curates travel experiences around the globe and uncovers the most exclusive travel gems.</p>
             </div>
 
             {isModalOpen && (

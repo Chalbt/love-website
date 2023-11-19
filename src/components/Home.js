@@ -6,6 +6,7 @@ import NeneMiniature from "../assets/nene-miniature.png"
 import { Link } from 'react-router-dom'
 import SavoirFaire from "../assets/croquis.jpg"
 import LesEscapades from "../assets/escapades.jpg"
+import Roses from "../assets/roses.jpg"
 
 
 function Home() {
@@ -26,23 +27,30 @@ function Home() {
         <div className='home'>
 
             <div className='menu-photo'>
-                <div className='savoir-faire'>
-                    <p className='image-description'>Savoir Faire</p>
-                    <Link to="/ha"><img className="img-savoir-faire" src={SavoirFaire} alt="photo des planches de croquis"/></Link> 
-                </div>
-                <div className='h-et-a'>
-                    <p className='image-description'>Marriage proposal ?</p>
-                    <img className="img-savoir-faire" src={SavoirFaire} alt="photo des planches de croquis"/>
-                </div>
-                <div className='les-escapades'>
-                    <p className='image-description'>Les Escapades</p>
-                    <Link to="/escapades"><img className="img-les-escapades" src={LesEscapades} alt="photo d'un lieu privé'"/></Link>
+                {/*<div className='contacts'>
+                    <p className='lien-contacts'><Link to="/contact">GALLERY</Link></p>
+                    <p className='lien-contacts'><Link to="/contact">CONTACTS</Link></p>
+                </div>*/}
+                <div className='services'>
+                    <div className='savoir-faire'>
+                        <p className='image-description'>SAVOIR FAIRE</p>
+                        <Link to="/savoir-faire"><img className="img-savoir-faire" src={SavoirFaire} alt="photo des planches de croquis"/></Link> 
+                        <p className='read-more'>Heloise et Abelard is the french leading marriage proposal agency. Trusted since 2011 for its confidentiality and its exclusive savoir-faire ... <Link to="/ha">Read more</Link></p>
+                    </div>
+                    <div className='h-et-a'>
+                        <p className='image-description'>THE PROPOSAL</p>
+                        <img className="img-savoir-faire" src={Roses} alt="photo d'un bouquet de roses rouges'"/>
+                        <p className='read-more'>Immerse yourself in the exclusive universe of Heloise and Abelard with our 'Les Escapades' service—an experience designed to elevate the precious moments in your life ... <Link to="/ha">Read more</Link></p>
+                    </div>
+                    <div className='les-escapades'>
+                        <p className='image-description'>LES ESCAPADES</p>
+                        <Link to="/escapades"><img className="img-les-escapades" src={LesEscapades} alt="photo d'un lieu privé'"/></Link>
+                        <p className='read-more'>Immerse yourself in the exclusive universe of Heloise and Abelard with our 'Les Escapades' service—an experience designed to elevate the precious moments in your life ... <Link to="/escapades">Read more</Link></p>
+                    </div>
                 </div>
             </div>
 
-            <div className='contacts'>
-                <p className='lien-contacts'><Link to="/contact">CONTACTS</Link></p>
-            </div>
+            
 
             {isModalOpen && (
                 <div className="modal" onMouseLeave={closeModal}>

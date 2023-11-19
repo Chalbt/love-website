@@ -31,7 +31,7 @@
 }
 
 .label input, .label textarea, select {
-    background-color: #ebe0d3;
+    background-color: white;
     height: 30px;
     border: 0.5px solid black;
     margin-top: 5px;

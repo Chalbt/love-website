@@ -1,5 +1,5 @@
 .HA {
-    margin: 0 100px;
+    margin: 0 300px;
     font-family: 'Bodoni Moda', serif;
     text-align: justify;
 }
@@ -41,4 +41,28 @@
     font-size: 20px;
     cursor: pointer;
     z-index: 2;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .HA {
+        margin: 100px 200px 200px 200px;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .HA {
+        margin: 50px 50px 100px 50px;
+    }
+
+    .HA p {
+        width: 100%;
+    }
+
   }

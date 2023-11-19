@@ -7,4 +7,6 @@
 .footer img {
     width: 30px;
     margin: 0 8px;
+    background-color: white;
+    border-radius: 50%;
 }

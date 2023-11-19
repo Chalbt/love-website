@@ -1,17 +1,41 @@
-.header {
-    font-family: 'Playfair Display', serif;
-    background-color: transparent;
-    padding-top: 10px;
+@font-face {
+	font-family: 'SalomeFine-Italic';
+	src: url(‘../../../fonts/FONTS/Salome_Fine_Italic.otf) format(‘courant’);
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Audrey-Normal';
+	src: url(‘../../../fonts/Audrey/Audrey-Normal.otf) format(‘courant’);
+}
+
+@font-face {
+	font-family: 'MADESAONARA2';
+	src: url(‘../../../fonts/Saona/MADE\ SAONARA\ PERSONAL\ USE.otf) format(‘courant’);
 }
 
 .brand-name {
     display: flex;
     justify-content: left;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 55px;
+    font-family: 'MADE SAONARA 2', courant;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    font-weight: 400;
+    font-size: 45px;
     color: #bf1628;
-    margin: 0 0 0 20px;
+    margin: 20px 0 0 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 .header a {
@@ -31,12 +55,30 @@
 
 @media screen and (max-width: 767px) {
 
+    .contacts {
+        margin-bottom: 30px;
+        line-height: 0%;
+        margin-right: 0;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+    }
+
     .menu-header li {
         font-size: 13px;
     }
 
     .escapades-menu a {
         font-size: 18px !important;
+    }
+
+    .brand-name {
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 0;
     }
 
 }
